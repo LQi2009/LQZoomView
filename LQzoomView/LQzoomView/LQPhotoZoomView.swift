@@ -61,7 +61,7 @@ class LQPhotoZoomView: UIView {
         scrollView.frame = self.bounds
         scrollView.maximumZoomScale = maximumZoomScale
         zoomViewToCenter()
-        addGestureRecognizer()
+        addGestureRecognizers()
     }
     
     func displayImage(_ image: UIImage) {
@@ -71,15 +71,19 @@ class LQPhotoZoomView: UIView {
         layoutZoomView()
     }
     
-    func displayWeburl(_ handle: (_ imageView: UIImageView) -> Void ) {
-        
-        handle(zoomView)
-    }
     
-    func layoutZoomView() {
+    /// 加载网络图片, 这里没有写加载方法, 在使用第三方库异步加载图片完成后, 需要调用闭包内第二个回调闭包
+    ///
+    /// - Parameter handle: 回调
+    func displayWeburl(_ handle: (_ imageView: UIImageView,  _ showImageHandle: @escaping () -> Void) -> Void ) {
         
-        layoutZoomViewFrame()
-        calculateSuitableScale()
+        handle(zoomView, {
+            print("显示")
+            DispatchQueue.main.async {
+                self.imageSize = (self.zoomView.image?.size)!
+                self.layoutZoomView()
+            }
+        })
     }
     
     func reset() {
@@ -119,6 +123,12 @@ extension LQPhotoZoomView: UIScrollViewDelegate {
 
 //MARK: - private methods
 private extension LQPhotoZoomView {
+    
+    func layoutZoomView() {
+        
+        layoutZoomViewFrame()
+        calculateSuitableScale()
+    }
     
     func layoutZoomViewFrame() {
         
@@ -179,10 +189,16 @@ private extension LQPhotoZoomView {
     }
 
     //MARK: - 添加手势
-    func addGestureRecognizer() {
+    func addGestureRecognizers() {
         
         var doubleTap: UITapGestureRecognizer?
         var singleTap: UITapGestureRecognizer?
+        
+        if let gestures = self.gestureRecognizers {
+            for gesture in gestures {
+                self.removeGestureRecognizer(gesture)
+            }
+        }
         
         if isDoubleTapEnable {
             doubleTap = UITapGestureRecognizer(target: self, action: #selector(doupleTapGesture))
