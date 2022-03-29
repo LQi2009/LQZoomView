@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DB20F2727F3035500584E21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB20F2627F3035500584E21 /* AppDelegate.swift */; };
+		0DB20F2927F3035500584E21 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB20F2827F3035500584E21 /* SceneDelegate.swift */; };
+		0DB20F2B27F3035500584E21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB20F2A27F3035500584E21 /* ViewController.swift */; };
+		0DB20F2E27F3035500584E21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DB20F2C27F3035500584E21 /* Main.storyboard */; };
+		0DB20F3027F3035700584E21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DB20F2F27F3035700584E21 /* Assets.xcassets */; };
+		0DB20F3327F3035700584E21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DB20F3127F3035700584E21 /* LaunchScreen.storyboard */; };
+		0DB20F3E27F3035700584E21 /* LQScaleImageViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB20F3D27F3035700584E21 /* LQScaleImageViewTests.swift */; };
+		0DB20F4827F3035700584E21 /* LQScaleImageViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB20F4727F3035700584E21 /* LQScaleImageViewUITests.swift */; };
+		0DB20F4A27F3035700584E21 /* LQScaleImageViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB20F4927F3035700584E21 /* LQScaleImageViewUITestsLaunchTests.swift */; };
+		0DB20F5827F3037900584E21 /* RBScaleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB20F5727F3037900584E21 /* RBScaleImageView.swift */; };
+		0DB20F5A27F3038100584E21 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0DB20F5927F3038100584E21 /* 4.jpg */; };
+		0DB20F5E27F3052700584E21 /* LQScaleImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB20F5D27F3052700584E21 /* LQScaleImageView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0DB20F3A27F3035700584E21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DB20F1B27F3035500584E21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DB20F2227F3035500584E21;
+			remoteInfo = LQScaleImageView;
+		};
+		0DB20F4427F3035700584E21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DB20F1B27F3035500584E21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DB20F2227F3035500584E21;
+			remoteInfo = LQScaleImageView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DB20F2327F3035500584E21 /* LQScaleImageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LQScaleImageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DB20F2627F3035500584E21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0DB20F2827F3035500584E21 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0DB20F2A27F3035500584E21 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0DB20F2D27F3035500584E21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0DB20F2F27F3035700584E21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0DB20F3227F3035700584E21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0DB20F3427F3035700584E21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DB20F3927F3035700584E21 /* LQScaleImageViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LQScaleImageViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DB20F3D27F3035700584E21 /* LQScaleImageViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LQScaleImageViewTests.swift; sourceTree = "<group>"; };
+		0DB20F4327F3035700584E21 /* LQScaleImageViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LQScaleImageViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DB20F4727F3035700584E21 /* LQScaleImageViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LQScaleImageViewUITests.swift; sourceTree = "<group>"; };
+		0DB20F4927F3035700584E21 /* LQScaleImageViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LQScaleImageViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0DB20F5727F3037900584E21 /* RBScaleImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RBScaleImageView.swift; sourceTree = "<group>"; };
+		0DB20F5927F3038100584E21 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		0DB20F5B27F3052600584E21 /* LQScaleImageView-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LQScaleImageView-Bridging-Header.h"; sourceTree = "<group>"; };
+		0DB20F5C27F3052700584E21 /* LQScaleImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQScaleImageView.h; sourceTree = "<group>"; };
+		0DB20F5D27F3052700584E21 /* LQScaleImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQScaleImageView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DB20F2027F3035500584E21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DB20F3627F3035700584E21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DB20F4027F3035700584E21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DB20F1A27F3035500584E21 = {
+			isa = PBXGroup;
+			children = (
+				0DB20F2527F3035500584E21 /* LQScaleImageView */,
+				0DB20F3C27F3035700584E21 /* LQScaleImageViewTests */,
+				0DB20F4627F3035700584E21 /* LQScaleImageViewUITests */,
+				0DB20F2427F3035500584E21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0DB20F2427F3035500584E21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0DB20F2327F3035500584E21 /* LQScaleImageView.app */,
+				0DB20F3927F3035700584E21 /* LQScaleImageViewTests.xctest */,
+				0DB20F4327F3035700584E21 /* LQScaleImageViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0DB20F2527F3035500584E21 /* LQScaleImageView */ = {
+			isa = PBXGroup;
+			children = (
+				0DB20F5927F3038100584E21 /* 4.jpg */,
+				0DB20F5627F3035F00584E21 /* LQScaleImageView */,
+				0DB20F2627F3035500584E21 /* AppDelegate.swift */,
+				0DB20F2827F3035500584E21 /* SceneDelegate.swift */,
+				0DB20F2A27F3035500584E21 /* ViewController.swift */,
+				0DB20F2C27F3035500584E21 /* Main.storyboard */,
+				0DB20F2F27F3035700584E21 /* Assets.xcassets */,
+				0DB20F3127F3035700584E21 /* LaunchScreen.storyboard */,
+				0DB20F3427F3035700584E21 /* Info.plist */,
+			);
+			path = LQScaleImageView;
+			sourceTree = "<group>";
+		};
+		0DB20F3C27F3035700584E21 /* LQScaleImageViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				0DB20F3D27F3035700584E21 /* LQScaleImageViewTests.swift */,
+			);
+			path = LQScaleImageViewTests;
+			sourceTree = "<group>";
+		};
+		0DB20F4627F3035700584E21 /* LQScaleImageViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0DB20F4727F3035700584E21 /* LQScaleImageViewUITests.swift */,
+				0DB20F4927F3035700584E21 /* LQScaleImageViewUITestsLaunchTests.swift */,
+			);
+			path = LQScaleImageViewUITests;
+			sourceTree = "<group>";
+		};
+		0DB20F5627F3035F00584E21 /* LQScaleImageView */ = {
+			isa = PBXGroup;
+			children = (
+				0DB20F5C27F3052700584E21 /* LQScaleImageView.h */,
+				0DB20F5D27F3052700584E21 /* LQScaleImageView.m */,
+				0DB20F5727F3037900584E21 /* RBScaleImageView.swift */,
+				0DB20F5B27F3052600584E21 /* LQScaleImageView-Bridging-Header.h */,
+			);
+			path = LQScaleImageView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0DB20F2227F3035500584E21 /* LQScaleImageView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DB20F4D27F3035700584E21 /* Build configuration list for PBXNativeTarget "LQScaleImageView" */;
+			buildPhases = (
+				0DB20F1F27F3035500584E21 /* Sources */,
+				0DB20F2027F3035500584E21 /* Frameworks */,
+				0DB20F2127F3035500584E21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LQScaleImageView;
+			productName = LQScaleImageView;
+			productReference = 0DB20F2327F3035500584E21 /* LQScaleImageView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0DB20F3827F3035700584E21 /* LQScaleImageViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DB20F5027F3035700584E21 /* Build configuration list for PBXNativeTarget "LQScaleImageViewTests" */;
+			buildPhases = (
+				0DB20F3527F3035700584E21 /* Sources */,
+				0DB20F3627F3035700584E21 /* Frameworks */,
+				0DB20F3727F3035700584E21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DB20F3B27F3035700584E21 /* PBXTargetDependency */,
+			);
+			name = LQScaleImageViewTests;
+			productName = LQScaleImageViewTests;
+			productReference = 0DB20F3927F3035700584E21 /* LQScaleImageViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0DB20F4227F3035700584E21 /* LQScaleImageViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DB20F5327F3035700584E21 /* Build configuration list for PBXNativeTarget "LQScaleImageViewUITests" */;
+			buildPhases = (
+				0DB20F3F27F3035700584E21 /* Sources */,
+				0DB20F4027F3035700584E21 /* Frameworks */,
+				0DB20F4127F3035700584E21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DB20F4527F3035700584E21 /* PBXTargetDependency */,
+			);
+			name = LQScaleImageViewUITests;
+			productName = LQScaleImageViewUITests;
+			productReference = 0DB20F4327F3035700584E21 /* LQScaleImageViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0DB20F1B27F3035500584E21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					0DB20F2227F3035500584E21 = {
+						CreatedOnToolsVersion = 13.3;
+						LastSwiftMigration = 1330;
+					};
+					0DB20F3827F3035700584E21 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 0DB20F2227F3035500584E21;
+					};
+					0DB20F4227F3035700584E21 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 0DB20F2227F3035500584E21;
+					};
+				};
+			};
+			buildConfigurationList = 0DB20F1E27F3035500584E21 /* Build configuration list for PBXProject "LQScaleImageView" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0DB20F1A27F3035500584E21;
+			productRefGroup = 0DB20F2427F3035500584E21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0DB20F2227F3035500584E21 /* LQScaleImageView */,
+				0DB20F3827F3035700584E21 /* LQScaleImageViewTests */,
+				0DB20F4227F3035700584E21 /* LQScaleImageViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0DB20F2127F3035500584E21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DB20F5A27F3038100584E21 /* 4.jpg in Resources */,
+				0DB20F3327F3035700584E21 /* LaunchScreen.storyboard in Resources */,
+				0DB20F3027F3035700584E21 /* Assets.xcassets in Resources */,
+				0DB20F2E27F3035500584E21 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DB20F3727F3035700584E21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DB20F4127F3035700584E21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DB20F1F27F3035500584E21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DB20F5E27F3052700584E21 /* LQScaleImageView.m in Sources */,
+				0DB20F2B27F3035500584E21 /* ViewController.swift in Sources */,
+				0DB20F2727F3035500584E21 /* AppDelegate.swift in Sources */,
+				0DB20F2927F3035500584E21 /* SceneDelegate.swift in Sources */,
+				0DB20F5827F3037900584E21 /* RBScaleImageView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DB20F3527F3035700584E21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DB20F3E27F3035700584E21 /* LQScaleImageViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DB20F3F27F3035700584E21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DB20F4827F3035700584E21 /* LQScaleImageViewUITests.swift in Sources */,
+				0DB20F4A27F3035700584E21 /* LQScaleImageViewUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0DB20F3B27F3035700584E21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0DB20F2227F3035500584E21 /* LQScaleImageView */;
+			targetProxy = 0DB20F3A27F3035700584E21 /* PBXContainerItemProxy */;
+		};
+		0DB20F4527F3035700584E21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0DB20F2227F3035500584E21 /* LQScaleImageView */;
+			targetProxy = 0DB20F4427F3035700584E21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0DB20F2C27F3035500584E21 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DB20F2D27F3035500584E21 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0DB20F3127F3035700584E21 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DB20F3227F3035700584E21 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0DB20F4B27F3035700584E21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0DB20F4C27F3035700584E21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0DB20F4E27F3035700584E21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3FEA4VKGS4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LQScaleImageView/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.newtv.LQScaleImageView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = GMDevelop;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "LQScaleImageView/LQScaleImageView/LQScaleImageView-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0DB20F4F27F3035700584E21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3FEA4VKGS4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LQScaleImageView/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.newtv.LQScaleImageView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = GMDevelop;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "LQScaleImageView/LQScaleImageView/LQScaleImageView-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0DB20F5127F3035700584E21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.newtv.LQScaleImageViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LQScaleImageView.app/LQScaleImageView";
+			};
+			name = Debug;
+		};
+		0DB20F5227F3035700584E21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.newtv.LQScaleImageViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LQScaleImageView.app/LQScaleImageView";
+			};
+			name = Release;
+		};
+		0DB20F5427F3035700584E21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.newtv.LQScaleImageViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LQScaleImageView;
+			};
+			name = Debug;
+		};
+		0DB20F5527F3035700584E21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.newtv.LQScaleImageViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LQScaleImageView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DB20F1E27F3035500584E21 /* Build configuration list for PBXProject "LQScaleImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DB20F4B27F3035700584E21 /* Debug */,
+				0DB20F4C27F3035700584E21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DB20F4D27F3035700584E21 /* Build configuration list for PBXNativeTarget "LQScaleImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DB20F4E27F3035700584E21 /* Debug */,
+				0DB20F4F27F3035700584E21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DB20F5027F3035700584E21 /* Build configuration list for PBXNativeTarget "LQScaleImageViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DB20F5127F3035700584E21 /* Debug */,
+				0DB20F5227F3035700584E21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DB20F5327F3035700584E21 /* Build configuration list for PBXNativeTarget "LQScaleImageViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DB20F5427F3035700584E21 /* Debug */,
+				0DB20F5527F3035700584E21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0DB20F1B27F3035500584E21 /* Project object */;
+}
